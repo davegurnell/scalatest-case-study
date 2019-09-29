@@ -1,0 +1,4 @@
+GET    /         code.Controller.list
+POST   /add      code.Controller.add
+DELETE /item/:id code.Controller.remove(id: Int)
+GET    /update   code.Controller.updateQuality
